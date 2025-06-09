@@ -19,6 +19,13 @@
                 display: block;
                 cursor: pointer;
                 position: relative;
+
+                @media (max-width: 768px) {
+                    p{
+                        max-width: 260px;
+                    }
+                }
+
                 
                 &::after{
                     content: '+';
